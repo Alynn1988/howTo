@@ -2,21 +2,65 @@
     background-color: #ed8a63;
 }
 h1 {
-	 font-size: 3rem;
+	 font-size: 5rem;
      color: #3a4660;
      font-weight: 600;
+	 padding: 10px;
 }
 h2 {
      font-size: 2rem;
      color: #0000ff;
+	 padding: 20px 0 20px 5px;
+	 margin: 5px;
 }
 h3 {
      font-size: 1.5rem;
      color: #00007f;
+	 padding: 5px 10px;
+}
+h5 {
+	margin: 10px;
 }
 a {
-    background-color: #000;
+    background-color: #a3977d;
     color: #feffff;
-    text-decoration: none;
     padding: 10px;
+	margin: 5px;
+	margin-right: 0;
+	border-radius: 10px;
+	border: 3px outset #c5b99f;
+}
+a:hover{
+	border: 3px inset #c5b99f;
+}
+img{
+	margin: 10px;
+}
+ul {
+	margin: 25px;
+}
+ul li {
+	list-style-type: disc;
+	margin: 5px;
+}
+.atoms{
+	border-bottom: 10px solid #a9461f;
+}
+.protons{
+	border-bottom: 10px solid #a9461f;
+}
+.neutrons{
+	border-bottom: 10px solid #a9461f;
+}
+.electrons{
+	border-bottom: 10px solid #a9461f;
+}
+.molecules{
+	border-bottom: 10px solid #a9461f;
+}
+.quarks{
+	border-bottom: 10px solid #a9461f;
+}
+.ions{
+	border-bottom: 10px solid #a9461f;
 }
